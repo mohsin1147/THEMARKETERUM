@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Marketer</title>
+<style>
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  .intro {
+    text-align: center;
+    padding: 100px 0;
+  }
+  .intro h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  .intro p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .contact-button:hover {
+    background-color: #3cce43;
+  }
+</style>
+</head>
+<body>
+<div class="intro">
+  <h1>Welcome to The Marketer</h1>
+  <h2>Unlocking Your Potential</h2>
+  
+  <p> Thriving in the World of Freelancing with [The Marketer]"
+
+    In today's rapidly evolving professional landscape, traditional employment models are giving way to new and exciting opportunities. Enter the world of freelancing, where individuals can harness their unique skills and talents to forge their own path, all while enjoying unparalleled flexibility and autonomy. Let [The Marketer], a seasoned expert in the realm of freelancing, be your guide as we delve into the intricacies and rewards of this dynamic career choice.
+    
+    In this engaging exploration of freelancing, [The Marketer] sheds light on the transformative power of embracing independence and taking control of one's professional journey. With a wealth of experience and a proven track record, [The Marketer] not only shares invaluable insights but also provides practical tips for success in this ever-expanding field.
+    
+    Discover how freelancing empowers individuals to tailor their work-life balance, pursue their passions, and cultivate diverse income streams. [The Marketer]'s expertise will illuminate the avenues through which freelancers can tap into a global marketplace, connect with clients from around the world, and showcase their unique value proposition.
+    
+    From cultivating a standout online presence to mastering the art of client communication, [The Marketer] unveils the strategies and techniques that have propelled countless freelancers to new heights of success. Whether you're a seasoned freelancer looking to enhance your skills or someone considering taking the leap into freelancing for the first time, this exploration will equip you with the knowledge and inspiration needed to flourish in this dynamic landscape.
+    
+    Join [The Marketer] on this captivating journey through the world of freelancing, and discover how to unleash your potential, achieve your goals, and craft a fulfilling and prosperous career on your terms. Embrace the freedom, creativity, and boundless opportunities that freelancing offers, and embark on a transformative adventure guided by the expertise of [The Marketer]. Your journey to freelancing success starts here.</p>
+  
+
+    
+  <a class="contact-button" href="https://wa.link/xvu7wy">Contact Us</a>
+  <H2>Fill The Form For Registration </H2>
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="sendRegistrationDetails(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        
+        <label for="whatsapp">WhatsApp:</label>
+        <input type="tel" id="whatsapp" name="whatsapp" required>
+        
+        <label for="account-number">Account Number:</label>
+        <input type="text" id="account-number" name="account-number" required>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+        
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+        
+        <button type="submit">Register</button>
+    </form>
+
+    <script>
+        function sendRegistrationDetails(event) {
+            event.preventDefault();
+            
+            // Get form values
+            var name = document.getElementById("name").value;
+            var age = document.getElementById("age").value;
+            var whatsapp = document.getElementById("whatsapp").value;
+            var accountNumber = document.getElementById("account-number").value;
+            var address = document.getElementById("address").value;
+            
+            // Prepare message
+            var message = "Registration Details:\n\n" +
+                          "Name: " + name + "\n" +
+                          "Age: " + age + "\n" +
+                          "WhatsApp: " + whatsapp + "\n" +
+                          "Account Number: " + accountNumber + "\n" +
+                          "Address: " + address;
+            
+            // Prepare WhatsApp URL
+            var whatsappURL = "http://api.whatsapp.com/send?phone=923251152886&text=" + encodeURIComponent(message);
+            
+            // Redirect to WhatsApp
+            window.location.href = whatsappURL;
+        }
+    </script>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Scrolling Text Example</title>
+    </head>
+    <body>
+        <h1>THANKS FOR VISITING</h1>
+        
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            Designed By The Marketer 
+            UBAID AWAN & MOHSIN AWAN
+        </marquee>
+    </body>
+    </html>
+    
+</body>
+</html>
+
+
+</div>
+</body>
+</html>
